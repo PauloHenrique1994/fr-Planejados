@@ -1,0 +1,21 @@
+.fundoNav {
+    background: url('../resources/images/banner2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fundoDiv {
+    background: url('../resources/images/cards/slide1.png') repeat-x center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fundoDiv2 {
+    position: absolute;
+    margin-top:-60px;
+    margin-left: 3em;
+}
