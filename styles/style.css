@@ -19,3 +19,13 @@
     margin-top:-60px;
     margin-left: 3em;
 }
+
+.card {
+    position:absolute;
+    bottom:10%;
+    left:20%;
+    right:15%;
+    background-color: #84787a;
+    opacity: 0.8;
+    width: 60%;
+}
