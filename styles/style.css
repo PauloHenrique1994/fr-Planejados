@@ -23,13 +23,21 @@
 .card {
     position:absolute;
     bottom:10%;
-    left:20%;
+    left:25%;
     right:15%;
     background-color: #84787a;
     opacity: 0.8;
-    width: 60%;
+    width: 50%;
 }
 
-.height-80 {
-    height: 76vh;
+.posicao {
+    height: 100vh;
+}
+
+a:hover {
+    color: black;
+}
+
+a:link {
+    color: black;
 }
