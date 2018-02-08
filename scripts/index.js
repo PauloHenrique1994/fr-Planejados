@@ -3,22 +3,22 @@ var botao = document.querySelector("#enviar");
 botao.addEventListener("click", function(event) {
     event.preventDefault();
 
-    var form = document.querySelector("#contato");
+    var form = document.querySelector("#form_contato");
 
     var ul = document.querySelector("#erros");
 
     var contato = {
-        nome:form.nome.value,
+        nome: form.nome.value,
         email: form.email.value,
         endereco: form.endereco.value,
         telefone: form.telefone.value,
         motivo: form.motivo.selectedIndex,
         mensagem: form.mensagem.value
     }
-
+        
     var erros = [];
 
-    /*if (contato.nome.length == 0)
+    if (contato.nome.length == 0)
     {
         erros.push("O campo nome não pode ser vázio");
     }
@@ -33,7 +33,7 @@ botao.addEventListener("click", function(event) {
         erros.push("O campo endereço não poder se vázio");
     }
     
-    if (contato.telefone.length > 14 || contato.telefone.length < 10)
+    if (contato.telefone.length < 11 || contato.telefone.length > 12)
     {
         erros.push("Informe um telefone valido");
     }
@@ -65,5 +65,5 @@ botao.addEventListener("click", function(event) {
     }
     
     form.reset();
-    form.submit();*/
+    form.submit();
 })

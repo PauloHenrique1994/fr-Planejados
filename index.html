@@ -93,8 +93,8 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                    <form method="post" action="send.php" id="contato">
-                        <ul id="erros"></ul>
+                    <form method="post" action="send.php" id="form_contato">
+                        <ul id="erros" style="color: red;"></ul>
                         <label>Nome:</label>
                         <input type="text" class="form-control" name="nome" placeholder="Digite o seu nome...">
 
@@ -118,15 +118,15 @@
                         <label>Mensagem:</label>
                         <textarea class="form-control" cols="10" rows="4" name="mensagem"></textarea>
                     
-                </div>
-                <div class="modal-footer">
-                    <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                    <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
-                </div>
-                </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+                        </div>
+                    </form>
               </div>
             </div>
           </div>          
-    <!--<script src="scripts/index.js"></script>-->
+    <script src="scripts/index.js"></script>
 </body>
 </html>
