@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>FR Planejados - Móveis Planejados para vôce</title>
+    <title>FR Planejados - Página indisponível</title>
     <!--<link rel="icon" href="images/favicon.png" type="image/x-icon"/>-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -13,121 +13,10 @@
     <meta name="keywords" content="fr planejados, FR planejados, frplanejados, fr, planejados, moveis, progrinter, escritorios, cozinhas">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body style="background-color:#E0DDDB">
-    <div class="content-fluid">
-        <!-- seção inicial do site -->
-        <div class="container-fluid fundoNav">
-            <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
-            <div class="row">
-                <div class="container text-center">
-                    <img class="img-fluid" src="resources/images/logo.png">
-                </div>
-            </div>
-            <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
-        </div>
-        <!-- Segunda seção contendo os conteúdos -->
-        <div class="container-fluid" style="background-color:#E0DDDB;">
-            <div class="row">&nbsp;</div>
-            <div class="row text-center">
-                <div class="container text-center">
-                    <a href="#contato" data-toggle="modal"><h5>Clique para entrar em contato</h5></a>
-                </div>
-            </div>    
-            <div class="row">
-                <div class="container text-center">
-                    <h5>Conheça alguns dos nossos serviços:</h5>
-                </div>
-            </div>
-            <div class="row">&nbsp;</div>
-            <!-- início do carrousel -->
-            <div class="row text-center" style="color:white; font-size:1.4em">
-                <div class="col-md-3 text-center" style="position:relative">
-                    <img src="resources/images/cards/slide1.png" alt="dormitórios" class="img-fluid fundoCard">
-                    <div class="content card">
-                        <h5>&nbsp;</h5>
-                        <p>Dormitórios</p>
-                        <h5>&nbsp;</h5>
-                    </div>
-                </div>
-                <div class="col-md-3" style="position:relative">
-                    <img src="resources/images/cards/slide2.png" alt="banheiros" class="img-fluid">
-                    <div class="content card">
-                        <h5>&nbsp;</h5>
-                        <p>Banheiros</p>
-                        <h5>&nbsp;</h5>
-                    </div>
-                </div>
-                <div class="col-md-3" style="position:relative">
-                    <img src="resources/images/cards/slide3.png" alt="escritórios" class="img-fluid">
-                    <div class="content card">
-                        <h5>&nbsp;</h5>
-                        <p>Escritórios</p>
-                        <h5>&nbsp;</h5>
-                    </div>
-                </div>
-                <div class="col-md-3" style="position:relative">
-                    <img src="resources/images/cards/slide4.png" alt="cozinhas" class="img-fluid">
-                    <div class="content card">
-                        <h5>&nbsp;</h5>
-                        <p>Cozinhas</p>
-                        <h5>&nbsp;</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row">&nbsp;</div>
-            <div class="row">&nbsp;</div>
-        </div>
-        <footer class="footer text-center fixed-bottom" style="background-color:#474143; color:white">
-            <h7>Avenida Conceição, 827, Centro, Diadema - SP | Cel.: (11) 9 6199-2357</h7>
-        </footer>
+<body>
+    <div class="container text-center">
+        <h3>No momento essa página encontra-se indisponível.</h3>
+        <h5>Mais informações: contato@progrinter.com</h5>
     </div>
-    <!-- Inicio Modal -->
-    <div class="modal" tabindex="-1" role="dialog" id="contato">
-            <div class="modal-dialog" role="document" >
-              <div class="modal-content" style="background-color:#474143; color: white; opacity:0.8">
-                <div class="modal-header">
-                  <h5 class="modal-title">Contato</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                    <form method="post" action="send.php" id="form_contato">
-                        <ul id="erros" style="color: red;"></ul>
-                        <label>Nome:</label>
-                        <input type="text" class="form-control" name="nome" placeholder="Digite o seu nome...">
-
-                        <label>E-mail</label>
-                        <input type="text" class="form-control" name="email" placeholder="Digite o seu e-mail...">
-
-                        <label>Endereço:</label>
-                        <input type="text" class="form-control" name="endereco" placeholder="Digite o seu endereço...">
-
-                        <label>Telefone:</label>
-                        <input type="text" class="form-control" name="telefone" placeholder="(xx) xxxx-xxxx">
-
-                        <label>Motivo do contato:</label>
-                        <select class="form-control" name="motivo">
-                            <option>Selecione...</option>
-                            <option>Solicitação</option>
-                            <option>Reclamanção</option>
-                            <option>Sugestão</option>
-                        </select>
-
-                        <label>Mensagem:</label>
-                        <textarea class="form-control" cols="10" rows="4" name="mensagem"></textarea>
-                    
-                        </div>
-                        <div class="modal-footer">
-                            <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                            <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
-                        </div>
-                    </form>
-              </div>
-            </div>
-          </div>          
-    <script src="scripts/index.js"></script>
 </body>
 </html>
